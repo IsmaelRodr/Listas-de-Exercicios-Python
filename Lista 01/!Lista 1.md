@@ -1,0 +1,1 @@
+# Lista de Exercícios 1: Introdução a Variáveis, Entrada e Saída e Operadores Aritméticos
