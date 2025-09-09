@@ -7,8 +7,8 @@
 # quanto cada um tem que pagar. 
 # Resposta:
 
-total_conta = 50
-qnt_pessoas = 6
+total_conta = float(input("Digite o valor total da conta: R$ "))
+qnt_pessoas = int(input("Digite o total de pessoas na mesa: "))
 
 dinheiro_por_pessoa = total_conta / (qnt_pessoas - 1)
 

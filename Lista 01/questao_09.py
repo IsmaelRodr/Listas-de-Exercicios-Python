@@ -6,8 +6,8 @@
 # percorrê-lo. 
 # Resposta:
 
-distancia_percorrida_metros = 500
-tempo_segundos = 60
+distancia_percorrida_metros = float(input("Digite o numero da distancia percorrida em metros: "))
+tempo_segundos = int(input("Digite o numero do tempo em segundos: "))
 
 velocidade = distancia_percorrida_metros / tempo_segundos
 

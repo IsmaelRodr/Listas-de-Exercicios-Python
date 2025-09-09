@@ -7,12 +7,12 @@
 # exibir o resultado. 
 # Resposta:
 
-preco_1 = 7.49
-preco_2 = 8.29
-preco_3 = 6.99
-preco_4 = 7.89
-preco_5 = 6.59
+preco_1 = float(input("Digite o valor do preço 1: R$ "))
+preco_2 = float(input("Digite o valor do preço 2: R$ "))
+preco_3 = float(input("Digite o valor do preço 3: R$ "))
+preco_4 = float(input("Digite o valor do preço 4: R$ "))
+preco_5 = float(input("Digite o valor do preço 5: R$ "))
 
 media = (preco_1 + preco_2 + preco_3 + preco_4 + preco_5) / 5
 
-print(f'A Média do valor dos produtos é de: R${media.__round__(2)}')
+print(f'A Média do valor do produto é de: R${media.__round__(2)}')
